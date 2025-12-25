@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -37,11 +36,10 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#" className="flex items-center">
-            <Image
-              src="/Logo.svg"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/uxer/Logo.svg"
               alt="UXER"
-              width={48}
-              height={48}
               className="h-10 w-10 md:h-12 md:w-12"
             />
           </a>

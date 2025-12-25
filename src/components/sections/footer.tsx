@@ -1,7 +1,5 @@
 "use client"
 
-import Image from "next/image"
-
 const navLinks = [
   { label: "Manifesto", href: "#manifesto" },
   { label: "Serviços", href: "#servicos" },
@@ -17,11 +15,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">
           <div className="flex items-center gap-4">
-            <Image
-              src="/Logo.svg"
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/uxer/Logo.svg"
               alt="UXER"
-              width={40}
-              height={40}
               className="h-10 w-10"
             />
             <div>
