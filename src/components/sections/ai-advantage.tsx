@@ -6,23 +6,23 @@ import { Zap, Eye, Target, TrendingUp } from "lucide-react"
 const advantages = [
   {
     icon: Eye,
-    title: "Enxergar padr\u00f5es antes",
-    description: "An\u00e1lise de grandes volumes de dados de usu\u00e1rio para identificar oportunidades ocultas.",
+    title: "Enxergar padrões antes",
+    description: "Análise de grandes volumes de dados de usuário para identificar oportunidades ocultas.",
   },
   {
     icon: Zap,
-    title: "Testar mais r\u00e1pido",
-    description: "Prototipa\u00e7\u00e3o acelerada e testes automatizados que reduzem ciclos de valida\u00e7\u00e3o.",
+    title: "Testar mais rápido",
+    description: "Prototipação acelerada e testes automatizados que reduzem ciclos de validação.",
   },
   {
     icon: Target,
     title: "Decidir melhor",
-    description: "Insights baseados em dados reais, n\u00e3o em achismos. Decis\u00f5es com confian\u00e7a.",
+    description: "Insights baseados em dados reais, não em achismos. Decisões com confiança.",
   },
   {
     icon: TrendingUp,
     title: "Escalar impacto",
-    description: "Automa\u00e7\u00e3o de processos repetitivos para focar no que realmente importa.",
+    description: "Automação de processos repetitivos para focar no que realmente importa.",
   },
 ]
 
@@ -39,19 +39,19 @@ export function AIAdvantage() {
             <Badge className="mb-6">Diferencial</Badge>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
               IA como <span className="text-primary text-glow">alavanca</span>,
-              <br />n\u00e3o substituto.
+              <br />não substituto.
             </h2>
             <p className="text-lg text-foreground-muted mb-8">
-              Enquanto outros falam sobre IA, n\u00f3s usamos. Integramos intelig\u00eancia
+              Enquanto outros falam sobre IA, nós usamos. Integramos inteligência
               artificial em cada etapa do processo para{" "}
               <span className="text-foreground font-medium">
-                potencializar a a\u00e7\u00e3o humana
+                potencializar a ação humana
               </span>
-              , n\u00e3o para substitu\u00ed-la.
+              , não para substituí-la.
             </p>
             <p className="text-foreground-muted">
-              O resultado? Projetos que chegam mais r\u00e1pido, com mais precis\u00e3o e
-              impacto mensur\u00e1vel.
+              O resultado? Projetos que chegam mais rápido, com mais precisão e
+              impacto mensurável.
             </p>
           </div>
 

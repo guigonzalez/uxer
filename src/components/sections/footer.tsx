@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const navLinks = [
   { label: "Manifesto", href: "#manifesto" },
-  { label: "Servi\u00e7os", href: "#servicos" },
+  { label: "Serviços", href: "#servicos" },
   { label: "IA", href: "#ia" },
   { label: "Processo", href: "#processo" },
 ]
@@ -27,7 +27,7 @@ export function Footer() {
             <div>
               <p className="font-semibold">UXER</p>
               <p className="text-sm text-foreground-muted">
-                A\u00e7\u00e3o aplicada \u00e0 experi\u00eancia
+                Ação aplicada à experiência
               </p>
             </div>
           </div>
@@ -57,8 +57,8 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-foreground-subtle">
           <p>&copy; {currentYear} UXER. Todos os direitos reservados.</p>
           <p>
-            Feito com prop\u00f3sito{" "}
-            <span className="text-primary">\u2022</span> Potencializado por IA
+            Feito com propósito{" "}
+            <span className="text-primary">•</span> Potencializado por IA
           </p>
         </div>
       </div>

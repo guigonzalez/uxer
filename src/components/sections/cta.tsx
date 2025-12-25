@@ -13,12 +13,12 @@ export function CTA() {
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
           Pronto para transformar
           <br />
-          <span className="text-primary text-glow">experi\u00eancias em resultados?</span>
+          <span className="text-primary text-glow">experiências em resultados?</span>
         </h2>
 
         <p className="text-lg text-foreground-muted max-w-2xl mx-auto mb-10">
-          Vamos conversar sobre seu desafio. Sem compromisso, sem enrola\u00e7\u00e3o.
-          S\u00f3 uma conversa honesta sobre como podemos ajudar.
+          Vamos conversar sobre seu desafio. Sem compromisso, sem enrolação.
+          Só uma conversa honesta sobre como podemos ajudar.
         </p>
 
         <Button size="lg" asChild className="shadow-glow-lg hover:scale-105 transition-transform">

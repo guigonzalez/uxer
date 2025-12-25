@@ -15,18 +15,18 @@ export function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-40">
         <div className="max-w-4xl">
           <Badge className="mb-6 animate-in opacity-0" style={{ animationDelay: "100ms" }}>
-            Consultoria em Design de Experi\u00eancia
+            Consultoria em Design de Experiência
           </Badge>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight animate-in opacity-0" style={{ animationDelay: "200ms" }}>
-            UX n\u00e3o \u00e9 conceito.
+            UX não é conceito.
             <br />
-            <span className="text-primary text-glow">\u00c9 verbo.</span>
+            <span className="text-primary text-glow">É verbo.</span>
           </h1>
 
           <p className="mt-6 md:mt-8 text-lg md:text-xl text-foreground-muted max-w-2xl animate-in opacity-0" style={{ animationDelay: "300ms" }}>
-            UXER \u00e9 quem age. Quem entra no sistema, entende o contexto e move a
-            experi\u00eancia para frente. Usamos IA como alavanca para resultados reais.
+            UXER é quem age. Quem entra no sistema, entende o contexto e move a
+            experiência para frente. Usamos IA como alavanca para resultados reais.
           </p>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-4 animate-in opacity-0" style={{ animationDelay: "400ms" }}>
