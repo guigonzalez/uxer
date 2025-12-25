@@ -5,6 +5,7 @@ const navLinks = [
   { label: "Serviços", href: "#servicos" },
   { label: "IA", href: "#ia" },
   { label: "Processo", href: "#processo" },
+  { label: "Equipe", href: "#quem-somos" },
 ]
 
 export function Footer() {

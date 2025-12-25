@@ -4,6 +4,7 @@ import { Manifesto } from "@/components/sections/manifesto"
 import { Services } from "@/components/sections/services"
 import { AIAdvantage } from "@/components/sections/ai-advantage"
 import { Process } from "@/components/sections/process"
+import { Team } from "@/components/sections/team"
 import { CTA } from "@/components/sections/cta"
 import { Footer } from "@/components/sections/footer"
 
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <AIAdvantage />
         <Process />
+        <Team />
         <CTA />
       </main>
       <Footer />
